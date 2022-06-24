@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Headland+One&family=Newsreader:opsz,wght@6..72,600&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@600&display=swap");
+* {
+  color: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(2, 145, 85);
+}
+
+hr {
+  border: 0;
+  border-top: 1px dotted rgb(255, 252, 252);
+}
+
+img {
+  max-width: 100%;
+}
