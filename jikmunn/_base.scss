@@ -23,8 +23,7 @@ a{
 }
 
 hr{
-    border: 0;
-    border-top: 1px dotted rgb(255, 252, 252);
+    border: $base-border-thickness dotted $error;
 }
 
 img{
