@@ -6,11 +6,14 @@ $error: rgba(248, 50, 50, 0.904);
 $info: rgb(226, 226, 40);
 
 // spacing
-$base-padding: 10px;
-$base-margin: 5px;
+$base-padding: 12px;
+$base-margin: 12px;
 
 // borders
 $base-borders-thickness: 1px;
 
+// box shadow
+$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+
 // fontsize
-$fontSize: 16px;
+$base-font-size: 16px;

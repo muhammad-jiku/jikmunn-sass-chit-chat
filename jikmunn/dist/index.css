@@ -15,6 +15,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: #029155;
 }
 
 hr {
@@ -24,4 +25,22 @@ hr {
 
 img {
   max-width: 100%;
+}
+
+.card {
+  display: block;
+  padding: 12px;
+  border: 1px solid #ddd;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.card .card-title {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+.card .card-body {
+  font-size: 16px;
+}
+.card .card-body a {
+  text-decoration: dashed;
 }
