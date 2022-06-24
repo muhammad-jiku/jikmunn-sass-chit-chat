@@ -1,9 +1,37 @@
 // variables
-// colors
+// theme colors
 $primary: rgb(0, 162, 255);
 $secondary: rgb(2, 145, 85);
 $error: rgba(248, 50, 50, 0.904);
 $info: rgb(226, 226, 40);
+
+// colors pallette
+$colors: (
+   'primary': $primary,
+   'secondary': $secondary,
+   'error': $error,
+   'info': $info, 
+   'blue': rgb(0, 0, 255),
+   'red': rgb(253, 14, 14),
+   'yellow': rgb(252, 252, 11),
+   'green': rgb(6, 128, 6),
+   'orange': rgb(255, 169, 9),
+   'purple': rgb(133, 12, 133),
+   'gray': rgb(128, 128, 128),
+   'black': rgb(10, 10, 10),
+   'white': rgb(255, 255, 255),
+);
+
+.test-btn{
+    color: map-get($colors, 'yellow' );
+    background-color: map-get($colors, 'error' );
+}
+
+@debug map-get($colors, 'error' );
+@debug map-has-key($colors, 'gray' );
+@debug map-has-key($colors, 'grey' );
+@debug map-remove($colors, 'primary' );
+@debug map-merge($colors, ('pink': rgb(255, 192, 203)));
 
 // spacing
 $base-padding: 12px;
