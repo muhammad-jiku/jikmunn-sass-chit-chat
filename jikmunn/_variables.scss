@@ -27,11 +27,11 @@ $colors: (
     background-color: map-get($colors, 'error' );
 }
 
-@debug map-get($colors, 'error' );
-@debug map-has-key($colors, 'gray' );
-@debug map-has-key($colors, 'grey' );
-@debug map-remove($colors, 'primary' );
-@debug map-merge($colors, ('pink': rgb(255, 192, 203)));
+// @debug map-get($colors, 'error' );
+// @debug map-has-key($colors, 'gray' );
+// @debug map-has-key($colors, 'grey' );
+// @debug map-remove($colors, 'primary' );
+// @debug map-merge($colors, ('pink': rgb(255, 192, 203)));
 
 // spacing
 $base-padding: 12px;
