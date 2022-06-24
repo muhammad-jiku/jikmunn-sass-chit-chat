@@ -1,11 +1,14 @@
+@use 'sass:math';
+
 .card{
     display: block;
     padding: $base-padding;
-    border: $base-borders-thickness solid #ddd;
+    border: $base-border-thickness solid #ddd;
     box-shadow: $base-box-shadow;
+    border-radius: math.div($base-border-radius, 4);
 
     .card-title{
-        font-size: $base-font-size;
+        font-size: $base-font-size-lg;
         font-weight: bold;
         padding-bottom: $base-padding;
     }
@@ -17,3 +20,8 @@
         }
     }
 }
+
+@debug 'Hello, there!';
+@debug math.div(101,3);
+@debug math.floor(101.253);
+@debug math.max(10px,3px,25px);
