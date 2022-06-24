@@ -1,6 +1,20 @@
+// @import 'variables';
+
 @each $key, $val in $colors {
     .text-#{$key} {
         color: $val;
+    }
+    // parent selector
+    .text-hover-#{$key} {
+        &:hover {
+            color: $val;
+        }
+        // &:nth-child(2){
+        //     font-family: cursive;
+        // }
+        // &::first-letter{
+        //     font-size: $base-font-size-xxl;
+        // }
     }
     .bg-#{$key} {
         background-color: $val;
@@ -15,6 +29,12 @@
             .text-#{$key}-light-#{$i} {
                 color: mix(white, $val, $i * 10);
             }
+            // parent selector
+            .text-hover-#{$key}-light-#{$i} {
+                &:hover {
+                    color: mix(white, $val, $i * 10);
+                }
+            }
             .bg-#{$key}-light-#{$i} {
                 background-color: mix(white, $val, $i * 10);
             } 
@@ -23,6 +43,12 @@
         @for $i from 1 to 10 {
             .text-#{$key}-dark-#{$i} {
                 color: mix(black, $val, $i * 10);
+            }
+            // parent selector
+            .text-hover-#{$key}-dark-#{$i} {
+                &:hover {
+                    color: mix(black, $val, $i * 10);
+                }
             }
             .bg-#{$key}-dark-#{$i} {
                 background-color: mix(black, $val, $i * 10);
