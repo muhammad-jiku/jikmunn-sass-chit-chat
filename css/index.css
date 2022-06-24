@@ -2797,3 +2797,403 @@ img {
 .card .card-body a {
   text-decoration: underline;
 }
+
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
+
+.btn-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: rgb(0, 162, 255);
+  border: 0;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #1aabff;
+}
+
+.btn-outlined-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: #F0F0F0;
+  border: 1px solid rgb(0, 162, 255);
+}
+.btn-outlined-primary:hover {
+  color: rgb(221, 195, 147);
+  background-color: rgb(0, 162, 255);
+}
+
+.btn-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: rgb(2, 145, 85);
+  border: 0;
+}
+.btn-secondary:hover {
+  color: white;
+  background-color: #02aa64;
+}
+
+.btn-outlined-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: #F0F0F0;
+  border: 1px solid rgb(2, 145, 85);
+}
+.btn-outlined-secondary:hover {
+  color: rgb(221, 195, 147);
+  background-color: rgb(2, 145, 85);
+}
+
+.btn-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: rgba(248, 50, 50, 0.904);
+  border: 0;
+}
+.btn-error:hover {
+  color: white;
+  background-color: rgba(249, 75, 75, 0.904);
+}
+
+.btn-outlined-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: #F0F0F0;
+  border: 1px solid rgba(248, 50, 50, 0.904);
+}
+.btn-outlined-error:hover {
+  color: rgb(221, 195, 147);
+  background-color: rgba(248, 50, 50, 0.904);
+}
+
+.btn-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: rgb(226, 226, 40);
+  border: 0;
+}
+.btn-info:hover {
+  color: white;
+  background-color: #e5e53e;
+}
+
+.btn-outlined-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: #F0F0F0;
+  border: 1px solid rgb(226, 226, 40);
+}
+.btn-outlined-info:hover {
+  color: rgb(221, 195, 147);
+  background-color: rgb(226, 226, 40);
+}
+
+.btn-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: rgb(0, 0, 255);
+  border: 0;
+}
+.btn-blue:hover {
+  color: white;
+  background-color: #1a1aff;
+}
+
+.btn-outlined-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: #F0F0F0;
+  border: 1px solid rgb(0, 0, 255);
+}
+.btn-outlined-blue:hover {
+  color: rgb(221, 195, 147);
+  background-color: rgb(0, 0, 255);
+}
+
+.btn-red {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: rgb(253, 14, 14);
+  border: 0;
+}
+.btn-red:hover {
+  color: white;
+  background-color: #fd2727;
+}
+
+.btn-outlined-red {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: #F0F0F0;
+  border: 1px solid rgb(253, 14, 14);
+}
+.btn-outlined-red:hover {
+  color: rgb(221, 195, 147);
+  background-color: rgb(253, 14, 14);
+}
+
+.btn-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: rgb(252, 252, 11);
+  border: 0;
+}
+.btn-yellow:hover {
+  color: white;
+  background-color: #fcfc24;
+}
+
+.btn-outlined-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: #F0F0F0;
+  border: 1px solid rgb(252, 252, 11);
+}
+.btn-outlined-yellow:hover {
+  color: rgb(221, 195, 147);
+  background-color: rgb(252, 252, 11);
+}
+
+.btn-green {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: rgb(6, 128, 6);
+  border: 0;
+}
+.btn-green:hover {
+  color: white;
+  background-color: #079807;
+}
+
+.btn-outlined-green {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: #F0F0F0;
+  border: 1px solid rgb(6, 128, 6);
+}
+.btn-outlined-green:hover {
+  color: rgb(221, 195, 147);
+  background-color: rgb(6, 128, 6);
+}
+
+.btn-orange {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: rgb(255, 169, 9);
+  border: 0;
+}
+.btn-orange:hover {
+  color: white;
+  background-color: #ffb223;
+}
+
+.btn-outlined-orange {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: #F0F0F0;
+  border: 1px solid rgb(255, 169, 9);
+}
+.btn-outlined-orange:hover {
+  color: rgb(221, 195, 147);
+  background-color: rgb(255, 169, 9);
+}
+
+.btn-purple {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: rgb(133, 12, 133);
+  border: 0;
+}
+.btn-purple:hover {
+  color: white;
+  background-color: #9c0e9c;
+}
+
+.btn-outlined-purple {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: #F0F0F0;
+  border: 1px solid rgb(133, 12, 133);
+}
+.btn-outlined-purple:hover {
+  color: rgb(221, 195, 147);
+  background-color: rgb(133, 12, 133);
+}
+
+.btn-gray {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: rgb(128, 128, 128);
+  border: 0;
+}
+.btn-gray:hover {
+  color: white;
+  background-color: #8d8d8d;
+}
+
+.btn-outlined-gray {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: #F0F0F0;
+  border: 1px solid rgb(128, 128, 128);
+}
+.btn-outlined-gray:hover {
+  color: rgb(221, 195, 147);
+  background-color: rgb(128, 128, 128);
+}
+
+.btn-black {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: rgb(10, 10, 10);
+  border: 0;
+}
+.btn-black:hover {
+  color: white;
+  background-color: #171717;
+}
+
+.btn-outlined-black {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: #F0F0F0;
+  border: 1px solid rgb(10, 10, 10);
+}
+.btn-outlined-black:hover {
+  color: rgb(221, 195, 147);
+  background-color: rgb(10, 10, 10);
+}
+
+.btn-white {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 0;
+}
+.btn-white:hover {
+  color: white;
+  background-color: white;
+}
+
+.btn-outlined-white {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background-color: #F0F0F0;
+  border: 1px solid rgb(255, 255, 255);
+}
+.btn-outlined-white:hover {
+  color: rgb(221, 195, 147);
+  background-color: rgb(255, 255, 255);
+}
