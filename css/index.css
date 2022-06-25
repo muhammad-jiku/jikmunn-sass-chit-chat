@@ -3873,6 +3873,118 @@ img {
   background-color: rgb(255, 255, 255);
 }
 
+.badge {
+  border-radius: 80px;
+  background-color: rgb(226, 226, 40);
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.badge-primary {
+  border-radius: 80px;
+  background-color: rgb(0, 162, 255);
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.badge-secondary {
+  border-radius: 80px;
+  background-color: rgb(2, 145, 85);
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.badge-error {
+  border-radius: 80px;
+  background-color: rgba(248, 50, 50, 0.904);
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.badge-info {
+  border-radius: 80px;
+  background-color: rgb(226, 226, 40);
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.badge-blue {
+  border-radius: 80px;
+  background-color: rgb(0, 0, 255);
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.badge-red {
+  border-radius: 80px;
+  background-color: rgb(253, 14, 14);
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.badge-yellow {
+  border-radius: 80px;
+  background-color: rgb(252, 252, 11);
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.badge-green {
+  border-radius: 80px;
+  background-color: rgb(6, 128, 6);
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.badge-orange {
+  border-radius: 80px;
+  background-color: rgb(255, 169, 9);
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.badge-purple {
+  border-radius: 80px;
+  background-color: rgb(133, 12, 133);
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.badge-gray {
+  border-radius: 80px;
+  background-color: rgb(128, 128, 128);
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.badge-black {
+  border-radius: 80px;
+  background-color: rgb(10, 10, 10);
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.badge-white {
+  border-radius: 80px;
+  background-color: rgb(255, 255, 255);
+  padding: 3px 6px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
 .p-0 {
   padding: 0;
 }
