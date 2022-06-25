@@ -3806,6 +3806,73 @@ img {
   background-color: white;
 }
 
+.navbar .container, .navbar-white .container, .navbar-black .container, .navbar-gray .container, .navbar-purple .container, .navbar-orange .container, .navbar-green .container, .navbar-yellow .container, .navbar-red .container, .navbar-blue .container, .navbar-info .container, .navbar-error .container, .navbar-secondary .container, .navbar-primary .container, .navbar, .navbar-white, .navbar-black, .navbar-gray, .navbar-purple, .navbar-orange, .navbar-green, .navbar-yellow, .navbar-red, .navbar-blue, .navbar-info, .navbar-error, .navbar-secondary, .navbar-primary {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.navbar, .navbar-white, .navbar-black, .navbar-gray, .navbar-purple, .navbar-orange, .navbar-green, .navbar-yellow, .navbar-red, .navbar-blue, .navbar-info, .navbar-error, .navbar-secondary, .navbar-primary {
+  padding: 12px 24px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar .site-title, .navbar-white .site-title, .navbar-black .site-title, .navbar-gray .site-title, .navbar-purple .site-title, .navbar-orange .site-title, .navbar-green .site-title, .navbar-yellow .site-title, .navbar-red .site-title, .navbar-blue .site-title, .navbar-info .site-title, .navbar-error .site-title, .navbar-secondary .site-title, .navbar-primary .site-title {
+  font-size: 24px;
+}
+.navbar-primary {
+  background-color: rgb(0, 162, 255);
+}
+
+.navbar-secondary {
+  background-color: rgb(2, 145, 85);
+}
+
+.navbar-error {
+  background-color: rgba(248, 50, 50, 0.904);
+}
+
+.navbar-info {
+  background-color: rgb(226, 226, 40);
+}
+
+.navbar-blue {
+  background-color: rgb(0, 0, 255);
+}
+
+.navbar-red {
+  background-color: rgb(253, 14, 14);
+}
+
+.navbar-yellow {
+  background-color: rgb(252, 252, 11);
+}
+
+.navbar-green {
+  background-color: rgb(6, 128, 6);
+}
+
+.navbar-orange {
+  background-color: rgb(255, 169, 9);
+}
+
+.navbar-purple {
+  background-color: rgb(133, 12, 133);
+}
+
+.navbar-gray {
+  background-color: rgb(128, 128, 128);
+}
+
+.navbar-black {
+  background-color: rgb(10, 10, 10);
+}
+
+.navbar-white {
+  background-color: rgb(255, 255, 255);
+}
+
 .p-0 {
   padding: 0;
 }
