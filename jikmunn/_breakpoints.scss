@@ -1,0 +1,71 @@
+$breakpoints: (
+  'xs': 0,
+  'sm': 480px,
+  'md': 720px,
+  'lg': 960px,
+  'xl': 1200px,
+);
+
+// xtra small devices
+@mixin xs {
+  @media (min-width: map-get($breakpoints, 'xs')) {
+    @content;
+  }
+}
+
+// small devices
+@mixin sm {
+  @media (min-width: map-get($breakpoints, 'sm')) {
+    @content;
+  }
+}
+
+// medium devices
+@mixin md {
+  @media (min-width: map-get($breakpoints, 'md')) {
+    @content;
+  }
+}
+
+// large devices
+@mixin lg {
+  @media (min-width: map-get($breakpoints, 'lg')) {
+    @content;
+  }
+}
+
+// xtra large devices
+@mixin xl {
+  @media (min-width: map-get($breakpoints, 'xl')) {
+    @content;
+  }
+}
+
+// breakpoint
+@mixin breakpoint($bp: 0) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}
+
+// responsive classes
+.responsive-test {
+  @include xs {
+    color: red;
+  }
+  @include sm {
+    color: green;
+  }
+  @include md {
+    color: orange;
+  }
+  @include lg {
+    color: rgb(202, 86, 196);
+  }
+  @include xl {
+    color: rgb(100, 76, 187);
+  }
+  @include breakpoint(1400px) {
+    color: rgb(163, 74, 47);
+  }
+}

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Headland+One&family=Newsreader:opsz,wght@6..72,600&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Headland+One&family=Newsreader:opsz,wght@6..72,600&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@600&display=swap');
 .test-btn {
   color: rgb(252, 252, 11);
   background-color: rgba(248, 50, 50, 0.904);
@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 ul {
@@ -2804,7 +2804,7 @@ img {
   margin-top: 12px;
   padding: 12px 24px;
   border-radius: 20px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .btn-primary {
@@ -2829,7 +2829,7 @@ img {
   margin-top: 12px;
   padding: 12px 24px;
   border-radius: 20px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border: 1px solid rgb(0, 162, 255);
 }
 .btn-outlined-primary:hover {
@@ -2874,7 +2874,7 @@ img {
   margin-top: 12px;
   padding: 12px 24px;
   border-radius: 20px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border: 1px solid rgb(2, 145, 85);
 }
 .btn-outlined-secondary:hover {
@@ -2919,7 +2919,7 @@ img {
   margin-top: 12px;
   padding: 12px 24px;
   border-radius: 20px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border: 1px solid rgba(248, 50, 50, 0.904);
 }
 .btn-outlined-error:hover {
@@ -2964,7 +2964,7 @@ img {
   margin-top: 12px;
   padding: 12px 24px;
   border-radius: 20px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border: 1px solid rgb(226, 226, 40);
 }
 .btn-outlined-info:hover {
@@ -3009,7 +3009,7 @@ img {
   margin-top: 12px;
   padding: 12px 24px;
   border-radius: 20px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border: 1px solid rgb(0, 0, 255);
 }
 .btn-outlined-blue:hover {
@@ -3054,7 +3054,7 @@ img {
   margin-top: 12px;
   padding: 12px 24px;
   border-radius: 20px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border: 1px solid rgb(253, 14, 14);
 }
 .btn-outlined-red:hover {
@@ -3099,7 +3099,7 @@ img {
   margin-top: 12px;
   padding: 12px 24px;
   border-radius: 20px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border: 1px solid rgb(252, 252, 11);
 }
 .btn-outlined-yellow:hover {
@@ -3144,7 +3144,7 @@ img {
   margin-top: 12px;
   padding: 12px 24px;
   border-radius: 20px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border: 1px solid rgb(6, 128, 6);
 }
 .btn-outlined-green:hover {
@@ -3189,7 +3189,7 @@ img {
   margin-top: 12px;
   padding: 12px 24px;
   border-radius: 20px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border: 1px solid rgb(255, 169, 9);
 }
 .btn-outlined-orange:hover {
@@ -3234,7 +3234,7 @@ img {
   margin-top: 12px;
   padding: 12px 24px;
   border-radius: 20px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border: 1px solid rgb(133, 12, 133);
 }
 .btn-outlined-purple:hover {
@@ -3279,7 +3279,7 @@ img {
   margin-top: 12px;
   padding: 12px 24px;
   border-radius: 20px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border: 1px solid rgb(128, 128, 128);
 }
 .btn-outlined-gray:hover {
@@ -3324,7 +3324,7 @@ img {
   margin-top: 12px;
   padding: 12px 24px;
   border-radius: 20px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border: 1px solid rgb(10, 10, 10);
 }
 .btn-outlined-black:hover {
@@ -3369,7 +3369,7 @@ img {
   margin-top: 12px;
   padding: 12px 24px;
   border-radius: 20px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   border: 1px solid rgb(255, 255, 255);
 }
 .btn-outlined-white:hover {
@@ -3734,4 +3734,4 @@ img {
 
 .font-xxl {
   font-size: 48px;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
